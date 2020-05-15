@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-size: 16px;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+.main {
+    margin: auto;
+    width: 100%;
+    max-width: 780px;
+    padding: 20px;
+}
+
+header {
+    background: rgb(255, 235, 59);
+    background: linear-gradient(45deg, rgba(255, 235, 59, 1) 0%, rgba(255, 187, 59, 1) 82%);
+}
+
+header .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .main-menu {
+    background-color: #f7f7f7;
+    border: solid 1px #f3f3f3;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.075);
+}
+
+header .main-menu ul {
+    list-style: none;
+    padding: 4px;
+    margin: 0;
+}
+
+header .main-menu ul > li {
+    display: inline-block;
+}
+
+header .main-menu ul > li a {
+    display: block;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+header .main-menu ul > li a:hover {
+    background-color: #e7e7e7;
+}
+
+.main-content {
+    margin: 0 0 32px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: solid 1px #eee;
+    font-size: 14px;
+    color: #786787;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 40px;
+}
+
+header:after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    bottom: calc(0% - 30px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 30px);
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .main-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .main-title img {
+    height: 30px;
+}
+
+header .main-menu {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+header .main-menu a {
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 16px;
+}
+
+header .slider {
+    margin-top: 20px;
+}
+
+header .slider > div {
+    width: 100%;
+    padding-top: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%/20%;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.page-title {
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: solid 1px #ccc;
+}
