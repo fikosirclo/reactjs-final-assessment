@@ -2,7 +2,7 @@
   "name": "with-apollo-and-redux",
   "version": "2.0.0",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 8000",
     "build": "next build",
     "start": "next start"
   },
@@ -12,7 +12,7 @@
     "apollo-cache-inmemory": "1.6.3",
     "apollo-client": "2.6.4",
     "apollo-link-http": "1.5.16",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.5.0",
     "graphql": "14.5.8",
     "graphql-tag": "2.10.1",
     "isomorphic-unfetch": "^3.0.0",
